@@ -6,29 +6,49 @@
     body {
         margin:0;
     }
-    /* stile dell'Header */
-    .Header {
+    /* stile della barra dei menu */
+    .topnav {
         background-color: #ffffff;
-        padding: 20px;
-        text-align: right;
-    }
+        overflow: hidden;
+    } 
+     /* stile dei link della barra dei menu */
+     .topnav a {
+        float: right;
+        display:block;
+        color:black; 
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+     }
+     /* stile dei link on hover */
+     .topnav a:hover {
+        background-color:crimson;
+        color: #ffffff;
+     }
+     /* stile del footer */
+     .footer {
+        background-color: black;
+        padding: 10 px;
+        text-align: center;
+     }
 </style>
 </head>
 <body>
-    <div style="width:100%">
-        <div class="Header">
-            <nav>
-            <ul id="menu">
-                <li><a href="#">Home</a></li>
-                <li class="active"><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul></nav></div>
+        <div class="topnav">
+            <a href="index.html">HOME</a>
+            <a href="mayday.html">MAYDAY</a>
+            <a href="urbanshot.html">URBANSHOT</a>
+            <a href="iscrizioni.html">ISCRIVITI</a>
+            <a href="contatti.html">CONTATTI</a>
+        </div>
+
             <div> <img src="progetto/immagini per sito/Hip Hop Contest 2024.png" alt="HipHop Contenst 2024" style="width:100%;max-width:2560px ;"height:1000px">
             </div>
             <div>
                 <h1 style="color:crimson; "font-size: 40px;" "font-family: Arial, Helvetica, Sans-Serif">I contest del 2024</h1>
             </div>
 </body>
+<div class="footer">
+    <p>Tutti i diritti riservati a RS Events</p>
+</div>
 </html>
