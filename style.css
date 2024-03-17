@@ -108,8 +108,7 @@ contest .contest_column p {
 .cards {
 	width: 100%;
 	height: auto;
-	max-width: 400px;
-	max-height: 200px;
+
 }
 footer .footer_column p {
 	padding-left: 30px;
