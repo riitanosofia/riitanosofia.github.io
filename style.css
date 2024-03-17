@@ -93,8 +93,8 @@ contest .contest-column p {
 	background-color: #FFFFFF;
 }
 .cards {
-	width: 100%;
-	height: auto;
+	width: 500px;
+	height: 500px;
 
 }
 footer .footer_column p {
