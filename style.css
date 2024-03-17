@@ -66,8 +66,10 @@ ul li:hover a {
 
 .hero {
 	background-image: url(progetto/immagini/Hip-Hop-Contest-2024.png);
-	padding-top: 150px;
-	padding-bottom: 150px;
+    height: 700px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .light {
 	font-weight: bold;
@@ -133,7 +135,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
+	background-image: url();
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
