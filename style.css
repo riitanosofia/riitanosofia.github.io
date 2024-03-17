@@ -26,12 +26,12 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: black;
 }
 
 .hero-image {
     background-image: url('progetto/immagini/Hip-Hop-Contest-2024.png');
-    height: 400px;
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
