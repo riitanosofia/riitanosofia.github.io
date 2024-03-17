@@ -85,11 +85,11 @@ ul li:hover a {
 	float: left;
 }
 contest .contest-column h3 {
-	color: #B3B3B3;
+	color: crimson;
 	text-align: center;
 }
 contest .contest-column p {
-	color: #717070;
+	color: crimson;
 	background-color: #FFFFFF;
 }
 .cards {
