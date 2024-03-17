@@ -1,10 +1,8 @@
 /* Foglio stile esterno */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    background-color: #ffffff;
-  }
+@charset "utf-8"
+
   /* stile della barra dei menu */
+  
   .topnav {
       background-color: #ffffff;
       overflow: hidden;
