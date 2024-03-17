@@ -66,7 +66,7 @@ ul li:hover a {
 
 .hero {
 	background-image: url(progetto/immagini/Hip-Hop-Contest-2024.png);
-    height: 100%;
+    height: max-content;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
