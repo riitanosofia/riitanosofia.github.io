@@ -25,7 +25,9 @@ nav ul {
     list-style-type: none;
     background-color: #033;
     padding: 10px;
-}
+    display: flex;
+    justify-content: flex-end; /* Allinea gli elementi del menu a destra */
+    }
 
 nav ul li {
     display: inline;
@@ -36,6 +38,30 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+.two-columns {
+    display: flex;
+    justify-content: space-between; /* Mantiene le colonne separate */
+    width: 80%;
+    margin: 0 auto; /* Centra il contenitore */
+}
+
+.column {
+    flex-basis: 50%; /* Assegna ad ogni colonna la metà della larghezza del contenitore */
+}
+
+.left {
+    padding-right: 20px; /* Spazio tra le colonne */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
 
 main {
     padding: 20px;
@@ -49,5 +75,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 20px;
 }
 
