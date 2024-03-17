@@ -94,6 +94,10 @@ ul li:hover a {
 	display: inline-block;
 	background-color: #FFFFFF;
 	margin-top: 0px;
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Stats Gallery */
 .stats {
