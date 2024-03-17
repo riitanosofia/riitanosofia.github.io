@@ -73,30 +73,29 @@ ul li:hover a {
 }
 
 /* Contest section */
-.contest {
-	background-color: #FFFFFF;
-	padding-bottom: 35px;
 
+.dual-column-section {
+    display: flex;
+    justify-content: space-around; /* Centra e distribuisce lo spazio tra le colonne */
+    gap: 20px; /* Distanza tra le colonne */
 }
-.contest-column {
-	width: 50%;
-	text-align: center;
-	padding-top: 30px;
-	float: left;
-}
-contest .contest-column h3 {
-	color: crimson;
-	text-align: center;
-}
-contest .contest-column p {
-	color: crimson;
-	background-color: #FFFFFF;
-}
-.cards {
-	width: 500px;
-	height: 500px;
 
+.column {
+    flex-basis: 45%; /* Imposta la larghezza di ciascuna colonna, adatta secondo necessità */
+    /* Aggiungi padding se desideri spazio intorno al contenuto di ogni colonna */
 }
+
+.column img {
+    width: 100%; /* Rende le immagini responsive, adattandosi alla larghezza della colonna */
+    height: auto; /* Mantiene il rapporto di aspetto dell'immagine */
+    margin-bottom: 20px; /* Spazio tra l'immagine e il testo sottostante */
+}
+
+.column h3, .column p {
+    margin-bottom: 10px; /* Aggiunge spazio sotto il titolo e il paragrafo */
+}
+
+
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
