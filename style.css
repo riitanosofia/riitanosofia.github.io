@@ -74,16 +74,9 @@ ul li:hover a {
 
 /* Contest section */
 .contest {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 35px;
-	display: inline-block;
 	background-color: #FFFFFF;
-	margin-top: 0px;
-    width: 80%;
-    max-width: 1200px;
-    margin-left: 10%;
-    margin-right: 10%;
+	padding-bottom: 35px;
+
 }
 .contest_column {
 	width: 50%;
