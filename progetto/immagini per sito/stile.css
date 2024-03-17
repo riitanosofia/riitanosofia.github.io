@@ -4,9 +4,6 @@ body {
     padding: 10px;
     background-color: #ffffff;
   }
-  * {
-      box-sizing: border-box;
-  }
   /* stile della barra dei menu */
   .topnav {
       background-color: #ffffff;
