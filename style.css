@@ -72,6 +72,7 @@ ul li:hover a {
 	background-repeat: no-repeat;
 }
 
+/* Contest section */
 .contest {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -83,13 +84,6 @@ ul li:hover a {
     max-width: 1200px;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-
-/* Contest section */
-footer {
-	background-color: #FFFFFF;
-	padding-bottom: 35px;
 }
 .contest_column {
 	width: 50%;
