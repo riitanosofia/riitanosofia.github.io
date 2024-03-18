@@ -100,7 +100,7 @@ ul li:hover a {
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
-	text-align: justify;
+	text-align: center;
 	line-height: 25px;
 	font-weight: lighter;
 	margin-left: 20px;
@@ -152,6 +152,6 @@ footer {
 	display: inline-block;
 }
 .hidden {
-	display: none;
+	display: block;
 }
 
