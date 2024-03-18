@@ -148,7 +148,9 @@ footer .footer_column p {
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
 }
-
+footer {
+	display: inline-block;
+}
 .hidden {
 font-size: large;
 text-align: center;
