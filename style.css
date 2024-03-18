@@ -127,8 +127,8 @@ footer .footer_column p {
 	transition: all 0.3s linear;
 }
 .button:hover {
-	background-color: #FEFEFE;
-	color: #C4C4C4;
+	background-color: black;
+	color: #ffffff;
 	cursor: pointer;
 }
 .copyright {
