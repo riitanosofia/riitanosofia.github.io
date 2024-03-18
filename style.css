@@ -152,9 +152,12 @@ footer {
 	display: inline-block;
 }
 .hidden {
-font-size: large;
+font-size: 30px;
 text-align: center;
 color: #FFFFFF;
 position: absolute;
 }
-
+.hero_header {
+text-align: center;
+color:#FFFFFF
+}
