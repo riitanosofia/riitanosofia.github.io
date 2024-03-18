@@ -152,6 +152,8 @@ footer {
 	display: inline-block;
 }
 .hidden {
-	display: block;
+font-size: large;
+text-align: center;
+color: #FFFFFF;
 }
 
