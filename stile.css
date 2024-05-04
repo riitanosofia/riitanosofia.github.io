@@ -332,6 +332,8 @@ padding-bottom: 10px;}
 
 .video {
 width:80%;
+max-width: 1200px;
+margin: auto;
 border: none;}
 
 /* Sezione Categorie Urban */
