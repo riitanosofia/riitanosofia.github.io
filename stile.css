@@ -193,7 +193,7 @@ a{color:crimson; text-decoration: none;}
 }
 	}
 .solid{
-	align:left;
+	align-items:left;
 	width: 50%;
 	border-top: 5px solid crimson;
 	margin-top: 10px;
